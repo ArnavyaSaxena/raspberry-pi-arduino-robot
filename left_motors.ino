@@ -1,3 +1,16 @@
+/*
+Motor Control Firmware
+Microcontroller: ATmega (Arduino)
+
+This program receives decoded control signals from the 2:4 decoder
+and executes motor commands for a differential-drive robot.
+
+Commands supported:
+00 -> Stop
+01 -> Forward
+10 -> Left
+11 -> Right
+*/
 #define motor_1 9
 #define motor_2 10
 
